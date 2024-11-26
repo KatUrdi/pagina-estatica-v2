@@ -26,3 +26,5 @@ jobs:
      - name: Deploy to AWS S3
        run: |
          aws s3 sync . s3://yoga-page --delete
+
+  
